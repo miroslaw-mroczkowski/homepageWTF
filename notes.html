@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notatki</title>
+  <script src="https://kit.fontawesome.com/0b21909e32.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Mirosław Mroczkowski - WTF Story</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="about-me.html">O mnie</a></li>
+        <li><a href="notes.html">Notatki</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <img src="img/notes.png" alt="">
+  </header>
+
+  <main>
+    <!-- Sekcja dotycząca samego kursu. Na razie podział na tygodnie, w każdym tygodniu sekcja dotyczące danej technologi. Później można zrobić na odwrót (główne sekcje dotyczą najważniejszych technologii, a w nich informacje z każdego tygodnia) -->
+    <!-- Można się zastanowić nad opcją zwijania/rozwijania każdego tygodnia -->
+    <!-- Cała sekcja może być jako grid albo flexbox -->
+    <section>
+      <header>
+        <h2>Tajemna wiedza</h2>
+      </header>
+
+      <article>
+        <!-- Każdy tydzień jako kontener. Po trzy kontenery w wierszu. Wysokość do ustalenia. Po rozwinięciu, pojawia się dodatkowy div z opisem tygodnia -->
+        <h3>Tydzień I</h3>
+        <!-- Tutaj dodać opis co było w danym tygodniu -->
+        <section>
+          <h4>Frontend i Backend</h4>
+          <div>
+            <h5>Czym jest Frontend</h5>
+            <p>Frontend jest tym co widać w przeglądarce internetowej, youtube, Visual Studio Code.</p>
+            <p>Frontendowiec to:</p>
+            <ul>
+              <li>Frontend Developer</li>
+              <li>JavaScript Developer</li>
+              <li>CSS/HTML Developer</li>
+              <li>Content Developer</li>
+              <li>Full-Stack Developer</li>
+              <li>UI Engineer</li>
+              <li>UI Developer</li>
+              <li>Webmaster</li>
+            </ul>
+
+            <p>Puntkem wspólnym łączącym powyższe stanowiska są technologie używane do budowania aplikacji i stron:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+          </div>
+          <div>
+            <h5>Czym jest backend?</h5>
+            <p>Backend jest wszystkim co się dzieje poza naszą przeglądarką (w dużym uproszczeniu. Patrząc na samochód,
+              backend odpowiada za silnik i wszystkie układu, które sprawiają, że samochód jedzie. Frontend za karoserię
+              i wnętrze używane przez kierowcę i pasażerów.</p>
+          </div>
+          <div>
+            <h5>Podsumowując, Frontend odpowiada za:</h5>
+            <ul>
+              <li>wygląd stron/aplikacji internetowych</li>
+              <li>odpowiada za interakcje z użytkownikiem</li>
+              <li>jest generowany głównie przy użyciu trzech technologii: HTML, CSS i JavaScript</li>
+              <li>technologie frontendowe przejmują rynek tradycyjnych aplikacji.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h4>Przydatne narzędzia i grupy</h4>
+          <div>
+            <h5>Narzędzia:</h5>
+            <ul>
+              <li>Google Chrome</li>
+              <li>Visual Studio Code</li>
+              <li>Slack</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h4>Ścieżka rozwoju</h4>
+          <div>
+            <h5>Stopnie doświadczenia developerów:</h5>
+            <ul>
+              <li>Stażysta/Junior</li>
+              <li>Mid</li>
+              <li>Senior</li>
+              <li>Expert/Ninja/Wizard</li>
+            </ul>
+            <span>Efekt Krugera-Dunninga - "Wraz ze wzrostem doświadczenia, pewność siebie spada"</span>
+          </div>
+
+          <!-- Tutaj wstawić Frontend Developer Roadmap, np. jako img -->
+          <div>
+            <h5>Mapa Frontend Developera</h5>
+            <img src="" alt="">
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <h3>Tydzień II</h3>
+        <section>
+          <h3>Warstwy strony internetowej</h3>
+          <ul>
+            <li>Warstwa 0: Treść</li>
+            <li>Warstwa 1: HTML</li>
+            <li>Warstwa 2: CSS</li>
+            <li>Warstwa 3: JavaScript</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HTML - HyperText Markup Language</h3>
+          <div>
+            <h4>HTML jest językiem znaczników i pdowiada za treść:</h4>
+            <ul>
+              <li>Teksty</li>
+              <li>Nagłówki</li>
+              <li>Linki</li>
+              <li>Listy</li>
+              <li>Definicje</li>
+              <li>Obrazki</li>
+              <li>Video</li>
+              <li>Formularze</li>
+              <li>Wszystko co jest nośnikiem informacji</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Budowa znaczników</h4>
+            <!-- Tutaj wpisać schemat budowy znacznika <znacznik atrybut="wartość">Treść</znacznik>, za pomocą znaków specjalnych -->
+            <span>Semnatyczny HTML - html mający znaczenie. Rozszerzenie plików html to ".html"</span>
+          </div>
+
+          <div>
+            <h4>Podstawowe znaczniki HTML</h4>
+            <!-- znaczniki wpisać w nawiasach ostrych, użyć znaków specjalnych, pokolorować -->
+            <ul>
+              <li>main - główna część strony</li>
+              <li>section - sekcja (np. sport w gazecie)</li>
+              <li>article - samodzielne treści</li>
+              <li>header - nagłówek dokumenty sekcji lub artykułu</li>
+              <li>footer - stopka dokumentu, sekcji bądź artykułu</li>
+              <li>h1-h6 - nagłówki, od najważniejszego "h1", do najmniej ważnego "h6"</li>
+              <li>p - paragraf/akapit</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Podusmowując, HTML:</h4>
+            <ul>
+              <li>Opakowuje i opisuje treść strony</li>
+              <li>Mówi przeglądarce o strukturze dokumentu</li>
+              <li>Posiada swoją zdefiniowaną składnię</li>
+              <li>Nie jest językiem programowania, jest językiem znaczników (Markup Language)</li>
+              <li>Aktualną rekomendowaną wersją jest 5.2</li>
+              <li>Cała specyfikacja jest na stronie <a href="https://www.w3.org/TR/html52/">stronie w3c</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>CSS - kaskadowe arkusze stylów (Cascading Style Sheets)</h3>
+          <p>CSS odpowiada za prezentację oraz wpływa na wygląd elementów HTML na ekranie, wydrukach itp. PLiki
+            zawierającee kod CSS mają rozszerzenie ".css". CSS ma swoją składnie:</p>
+          <!-- selektor { właściwość:wartość; } przerobić na kolory i odpowiednio to rozbić -->
+          <div>
+            <h4>Sposoby stylowania:</h4>
+            <ol>
+              <li>Znacznik "style" - umieszczany w znaczniku head</li>
+              <li>Zewnętrzny arkusz stylów - przy użyciu znacznika 'link href="style.css" rel="stylesheet"
+                type="text/css"'</li>
+            </ol>
+          </div>
+          <div>
+            <h4>Właściwości CSS</h4>
+            <ol>
+              <li>color
+                <ul>
+                  <li>blue, red, brown itp.</li>
+                  <li>#cccccc - kodem szesnatkowym</li>
+                  <li>rgb (rgba) - red(0-255) green(0-255) blue(0-255)</li>
+                </ul>
+              </li>
+              <li></li>
+            </ol>
+          </div>
+          <div>
+            <h4>Podsumowując, CSS:</h4>
+            <ul>
+              <li>Odpowiada za prezentację treści strony</li>
+              <li>Nie mają jednej wersji, potocznie mówi się, że aktualna to wersja 3</li>
+              <li>Przeglądarki potrafią różnie interpretować CSS</li>
+              <li>Cała specyfikacja jest na <a href="https://www.w3.org/TR/CSS/">stronie w3c</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Czym jest programowanie?</h3>
+          <p>Programowanie to zamiana ludzkiego języka na język zrozumiały przez komputer. Każdy język programowania ma
+            swoją składnię, gramatykę i ortografię.</p>
+          <p>Na świecie mamy ponad 700 języków programowania. W tym kursie zajęliśmy się tylko jednym - JavaScript.</p>
+          <div>
+            <h4>Podsumowując, JS:</h4>
+            <ul>
+              <li>Odpowiada za interakcje</li>
+              <li>Pozwala na programowanie we frontendzie</li>
+              <li>Potrafi wpływać na każdą z warstw</li>
+              <li>Rozszerza możliwości zwykłych stron</li>
+              <li>Aktualnie jest jednym z najpopularniejszych języków programowania na świecie</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>DevTools - narzędzia deweloperskie</h3>
+          <ul>
+            <li>PPM > zbadaj(inspect)</li>
+            <li>F12</li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article>
+        <h3>Tydzień III</h3>
+        <section>
+          <h3>Kanban</h3>
+          <p>Kanban służy do planowania pracy, aby łatwo śledzić postępy. Z japońskiego oznacza spis widoczny</p>
+          <div>
+            <!-- Zrobić tak jak mniej więcej wygląda w Trello -->
+            <h4>Wygląd kanbanu</h4>
+            <div>
+              <p>ToDo = do zrobienia</p>
+            </div>
+            <div>
+              <p>Doing = w trakcie</p>
+              <span>Tylko jedno zadanie</span>
+            </div>
+            <div>
+              <p>Done = zrobione</p>
+            </div>
+          </div>
+          <div>
+            <h4>Podsumowując, Kanban:</h4>
+            <ul>
+              <li>Ułatwia śledzenie postępu prac/nauki</li>
+              <li>Zaleca się trzymanie jednego zadania w "doing"</li>
+              <li>Dobrze opisuj "definition of done"</li>
+              <li>Można stosować offline</li>
+              <li>Online za darmo można przygotować swoją tablicę na <a href="https://trello.com">Trello.com</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>HTML</h3>
+        </section>
+      </article>
+
+    </section>
+
+    <section>
+      <h2>Terminal, skróty i linki</h2>
+      <article>
+
+        <h3>Terminal</h3>
+
+      </article>
+
+      <article>
+        <h3>Linki</h3>
+        <div>
+          <ul>
+            <li><a href="https://www.google.com/intl/pl/chrome/">Google Chrome</a></li>
+            <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+            <li><a href="https://slack.com/intl/en-pl/downloads/">Slack</a></li>
+            <li><a href="https://cotenfrontend.pl/slack">WTF Slack</a></li>
+            <li><a href="https://validator.w3.org/nu/#textarea">Walidator HTML</a></li>
+            <li><a href="https://www.w3.org/TR/html52/">Dokumentacja HTML</a></li>
+            <li><a href="https://www.w3.org/TR/CSS/">Dokumentacja CSS</a></li>
+            <li><a href="https://trello.com">Trello</a></li>
+          </ul>
+        </div>
+
+      </article>
+
+      <article>
+        <h3>Skróty</h3>
+        <ul>
+          <li>Tab + ! - tworzy podstawową strukturę/szkielet pliku HTML (w VSCode)</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>Strona Mirosława Mroczkowskiego</footer>
+  </main>
+
+</body>
+
+</html>

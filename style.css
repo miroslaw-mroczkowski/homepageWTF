@@ -1,0 +1,146 @@
+* {
+  font-size: 10px;
+}
+
+/* Nawigacja i header */
+.header {
+  background-color: #eee;
+}
+
+.main-heading {
+  color: rgb(10, 112, 230);
+  font-size: 4.8rem;
+}
+
+.navigation-item {
+  list-style: none;
+}
+
+.navigation-link,
+.content-item,
+.content-item i {
+  text-decoration: none;
+  color: rgb(10, 112, 230);
+  font-size: 1.6rem;
+}
+
+.header img {
+  width: 30vw;
+}
+
+/* Main */
+.main {
+  background-color: #fff;
+}
+
+/* Sekcja O Mnie */
+.about-page {
+  background-color: #eee;
+}
+
+.about-page-heading,
+.about-me-heading,
+.notes-heading {
+  font-size: 3.2rem;
+}
+
+.article-heading,
+.notes-week-heading {
+  font-size: 2.4rem;
+}
+
+.about-page-article p,
+.about-me-article p {
+  font-size: 1.6rem;
+}
+
+.icons-container i {
+  color: rgb(10, 112, 230);
+  font-size: 6rem;
+}
+
+.about-me {
+  background-color: rgb(153, 255, 128);
+}
+
+/* Sekcja Tajemna Wiedza */
+.notes {
+  background-color: rgb(188, 210, 250);
+}
+
+.notes-week {
+  background-color: rgb(186, 171, 252);
+}
+
+.week-content {
+  background-color: #ccc;
+}
+
+.content-heading {
+  font-size: 2rem;
+}
+
+.container-heading {
+  font-size: 1.8rem;
+}
+
+.content-text,
+.list-title {
+  font-size: 1.6rem;
+}
+
+.content-container span {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgb(255, 53, 53);
+}
+
+.content-item span {
+  color: #ed6d05;
+}
+
+/* Opis znacznika HTML */
+
+.markup span {
+  font-size: 1.6rem;
+}
+
+.markup .markup-tag,
+i .markup-tag {
+  color: #ed6d05;
+
+}
+
+.markup .markup-tag,
+i .markup-tag,
+.content-container .markup .markup-attribute,
+.content-container .markup .markup-text,
+.content-item .markup-attribute,
+.content-item .markup-text,
+.content-item .class-tag,
+.content-item .class-attribute,
+.content-item .class-text,
+.content-item .class-name,
+.content-item .class-value {
+  text-transform: lowercase;
+}
+
+.markup .markup-attribute,
+.markup-tag>.markup-attribute,
+.content-item .class-attribute {
+  color: #0097a7;
+}
+
+.markup .markup-text,
+.markup-tag+.markup-text,
+.content-item~.markup-text,
+.content-item .class-name,
+.content-item .class-value,
+.content-item .class-text {
+  color: #000;
+}
+
+.content-item .markup span {
+  font-size: 1.6rem;
+  text-transform: lowercase;
+}
