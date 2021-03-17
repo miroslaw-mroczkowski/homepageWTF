@@ -1,146 +1,78 @@
+/* Root settings, reset */
+
 * {
   font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Nawigacja i header */
+
 .header {
-  background-color: #eee;
+  width: 100%;
+  background-color: rgb(127, 188, 245);
 }
 
-.main-heading {
-  color: rgb(10, 112, 230);
-  font-size: 4.8rem;
+.navigation {
+  background-color: #fff;
+
 }
 
-.navigation-item {
-  list-style: none;
+.navigation__list {
+  list-style-type: none;
+  text-align: end;
+
 }
 
-.navigation-link,
-.content-item,
-.content-item i {
+.navigation__item {
+  display: inline-block;
+}
+
+.navigation__link {
+  display: inline-block;
+  padding: 2rem 3rem;
   text-decoration: none;
-  color: rgb(10, 112, 230);
-  font-size: 1.6rem;
+  font-family: arial, sans-serif;
+  color: brown;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
-.header img {
+.header__title {
+  padding: 2rem 1.5rem;
+  font-size: 4.8rem;
+  font-family: arial, sans-serif;
+}
+
+.header__image {
   width: 30vw;
+  padding: 2rem;
 }
 
 /* Main */
+
 .main {
-  background-color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem auto;
 }
+
+
 
 /* Sekcja O Mnie */
-.about-page {
-  background-color: #eee;
-}
 
-.about-page-heading,
-.about-me-heading,
-.notes-heading {
-  font-size: 3.2rem;
-}
 
-.article-heading,
-.notes-week-heading {
-  font-size: 2.4rem;
-}
 
-.about-page-article p,
-.about-me-article p {
-  font-size: 1.6rem;
-}
-
-.icons-container i {
-  color: rgb(10, 112, 230);
-  font-size: 6rem;
-}
-
-.about-me {
-  background-color: rgb(153, 255, 128);
-}
 
 /* Sekcja Tajemna Wiedza */
-.notes {
-  background-color: rgb(188, 210, 250);
-}
 
-.notes-week {
-  background-color: rgb(186, 171, 252);
-}
 
-.week-content {
-  background-color: #ccc;
-}
 
-.content-heading {
-  font-size: 2rem;
-}
-
-.container-heading {
-  font-size: 1.8rem;
-}
-
-.content-text,
-.list-title {
-  font-size: 1.6rem;
-}
-
-.content-container span {
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  color: rgb(255, 53, 53);
-}
-
-.content-item span {
-  color: #ed6d05;
-}
 
 /* Opis znacznika HTML */
 
-.markup span {
-  font-size: 1.6rem;
-}
 
-.markup .markup-tag,
-i .markup-tag {
-  color: #ed6d05;
 
-}
 
-.markup .markup-tag,
-i .markup-tag,
-.content-container .markup .markup-attribute,
-.content-container .markup .markup-text,
-.content-item .markup-attribute,
-.content-item .markup-text,
-.content-item .class-tag,
-.content-item .class-attribute,
-.content-item .class-text,
-.content-item .class-name,
-.content-item .class-value {
-  text-transform: lowercase;
-}
-
-.markup .markup-attribute,
-.markup-tag>.markup-attribute,
-.content-item .class-attribute {
-  color: #0097a7;
-}
-
-.markup .markup-text,
-.markup-tag+.markup-text,
-.content-item~.markup-text,
-.content-item .class-name,
-.content-item .class-value,
-.content-item .class-text {
-  color: #000;
-}
-
-.content-item .markup span {
-  font-size: 1.6rem;
-  text-transform: lowercase;
-}
+/* Footer */

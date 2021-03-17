@@ -1,7 +1,5 @@
-const firstName = 'Mirek';
-const age = 37;
+const newText = document.querySelector('.header__text--js');
 
-console.log(firstName);
-console.log(age);
+console.log(newText);
 
-// alert(`Cześć! Mam na imię ${firstName}, mam ${age} lat. Witam Cię na mojej stronie.`)
+newText.innerHTML = "To jest moja pierwsza próba ingerencji w HTML za pomocą JavaScript";
