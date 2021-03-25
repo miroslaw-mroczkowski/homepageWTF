@@ -20,12 +20,16 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: center;
-  background-color: #fff;
+  justify-content: space-around;
+  border-radius: 16px;
+  background-color: rgb(223, 135, 135);
 
 }
 
 .navigation__list {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
   list-style-type: none;
   text-align: end;
 
@@ -60,8 +64,10 @@ body {
 
 .main {
   width: 100%;
-  max-width: 1200px;
-  margin: 1rem auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+
 }
 
 
