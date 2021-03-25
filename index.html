@@ -38,7 +38,7 @@
       <header class="section-about__header">
         <h2 class="section-about__title">WTF Co Ten Frontend</h2>
       </header>
-      <article class="section-about__article">
+      <article class="section-about__article article">
         <h3 class="article__title">Co tu znajdziecie?</h3>
         <p class="article__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quisquam nihil
           corporis voluptatibus
@@ -67,21 +67,21 @@
       <header class="section-about-me__header">
         <h2 class="section-about-me__title">Coś o mnie</h2>
       </header>
-      <article class="section-about-me__article">
+      <article class="section-about-me__article article">
         <h3 class="article__title">Trochę historii</h3>
         <p class="article__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad id atque iure? Amet
           veniam ex enim debitis, adipisci, delectus quaerat deserunt neque tenetur similique, natus distinctio
           necessitatibus reprehenderit maiores dolorem laborum velit fuga consectetur reiciendis nobis dolor? Saepe
           laborum debitis ullam perspiciatis quaerat optio ipsam voluptas autem facilis sit? Ipsum?</p>
       </article>
-      <article class="section-about-me__article">
+      <article class="section-about-me__article article">
         <h3 class="article__title">Teraźniejszość</h3>
         <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque amet voluptas
           nihil labore esse laborum sunt distinctio ratione unde consectetur ex cumque aliquid voluptatem perferendis
           repudiandae porro, cupiditate earum autem fuga laudantium a dignissimos debitis enim. Officia molestiae, fugit
           hic pariatur ullam assumenda suscipit rem quaerat vero vel culpa?</p>
       </article>
-      <article class="section-about-me__article">
+      <article class="section-about-me__article article">
         <h3 class="article__title">Plany na przyszłość</h3>
         <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat quod, et
           quibusdam a laborum sunt laudantium labore maxime, accusamus sequi! Ipsa quas in accusantium et doloremque
@@ -105,13 +105,13 @@
         <!-- TODO: Tutaj dodać opis co było w danym tygodniu -->
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">Frontend i Backend</h4>
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <h5 class="content__title">Czym jest Frontend</h5>
             <p class="content__text">Frontend jest tym co widać w przeglądarce internetowej, youtube, Visual Studio
               Code.
             </p>
-            <p class="content__list">Frontendowiec to:</p>
-            <ul class="list list--unordered">
+            <p class="content__list list">Frontendowiec to:</p>
+            <ul class="list__unordered">
               <li class="list__item">Frontend Developer</li>
               <li class="list__item">JavaScript Developer</li>
               <li class="list__item">CSS/HTML Developer</li>
@@ -121,27 +121,29 @@
               <li class="list__item">UI Developer</li>
               <li class="list__item">Webmaster</li>
             </ul>
+          </div>
 
-            <p class="content__list">Puntkem wspólnym łączącym powyższe stanowiska są technologie używane do budowania
-              aplikacji i stron:</p>
-            <ul class="list list--unordered">
-              <li class="list__item">HTML</li>
-              <li class="list__item">CSS</li>
-              <li class="list__item">JavaScript</li>
-            </ul>
+          <p class="content__list list">Puntkem wspólnym łączącym powyższe stanowiska są technologie używane do
+            budowania
+            aplikacji i stron:</p>
+          <ul class="list__unordered">
+            <li class="list__item">HTML</li>
+            <li class="list__item">CSS</li>
+            <li class="list__item">JavaScript</li>
+          </ul>
 
           </div>
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <h5 class="content__title">Czym jest backend?</h5>
             <p class="content__text">Backend jest wszystkim co się dzieje poza naszą przeglądarką (w dużym uproszczeniu.
               Patrząc na samochód,
               backend odpowiada za silnik i wszystkie układu, które sprawiają, że samochód jedzie. Frontend za karoserię
               i wnętrze używane przez kierowcę i pasażerów.</p>
           </div>
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <h5 class="content__title">Podsumowanie</h5>
-            <p class="content__list">Frontend odpowiada za:</p>
-            <ul class="list list--unordered">
+            <p class="content__list list">Frontend odpowiada za:</p>
+            <ul class="list__unordered">
               <li class="list__item">wygląd stron/aplikacji internetowych</li>
               <li class="list__item">odpowiada za interakcje z użytkownikiem</li>
               <li class="list__item">jest generowany głównie przy użyciu trzech technologii: HTML, CSS i JavaScript
@@ -153,9 +155,9 @@
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">Przydatne narzędzia i grupy</h4>
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <p class="content__list">Narzędzia:</p>
-            <ul class="list list--unordered">
+            <ul class="list__unordered">
               <li class="list__item">Google Chrome</li>
               <li class="list__item">Visual Studio Code</li>
               <li class="list__item">Slack</li>
@@ -165,20 +167,20 @@
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">Ścieżka rozwoju</h4>
-          <div class="week-notes__content">
-            <p class="content__list">Stopnie doświadczenia developerów:</p>
-            <ul class="list list--unordered">
+          <div class="week-notes__content content">
+            <p class="content__list list">Stopnie doświadczenia developerów:</p>
+            <ul class="list__unordered">
               <li class="list__item">Stażysta/Junior</li>
               <li class="list__item">Mid</li>
               <li class="list__item">Senior</li>
               <li class="list__item">Expert/Ninja/Wizard</li>
             </ul>
-            <span class="content_quote">Efekt Krugera-Dunninga - "Wraz ze wzrostem doświadczenia, pewność siebie
+            <span class="content__quote">Efekt Krugera-Dunninga - "Wraz ze wzrostem doświadczenia, pewność siebie
               spada"</span>
           </div>
 
           <!-- TODO: Tutaj wstawić Frontend Developer Roadmap, np. jako img -->
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <h5 class="content__title">Mapa Frontend Developera</h5>
             <img class="content__image" src="" alt="">
           </div>
@@ -189,20 +191,22 @@
         <h3 class="week-notes__number">Tydzień II</h3>
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">Warstwy strony internetowej</h4>
-          <p class="content-list">Każda strona internetowa składa się z następujących warstw:</p>
-          <ul class="list list--unordered">
-            <li class="list__item">Warstwa 0: Treść</li>
-            <li class="list__item">Warstwa 1: HTML</li>
-            <li class="list__item">Warstwa 2: CSS</li>
-            <li class="list__item">Warstwa 3: JavaScript</li>
-          </ul>
+          <div class="week-notes__content content">
+            <p class="content-list list">Każda strona internetowa składa się z następujących warstw:</p>
+            <ul class="list__unordered">
+              <li class="list__item">Warstwa 0: Treść</li>
+              <li class="list__item">Warstwa 1: HTML</li>
+              <li class="list__item">Warstwa 2: CSS</li>
+              <li class="list__item">Warstwa 3: JavaScript</li>
+            </ul>
+          </div>
         </section>
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">HTML - HyperText Markup Language</h4>
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <p class="content__list">HTML jest językiem znaczników i pdowiada za treść, czyli za:</p>
-            <ul class="list list--unordered">
+            <ul class="list__unordered">
               <li class="list__item">Teksty</li>
               <li class="list__item">Nagłówki</li>
               <li class="list__item">Linki</li>
@@ -216,7 +220,7 @@
           </div>
 
 
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <p class="content__title">Budowa znaczników</p>
             <p class="content__markup"><strong><em><span class="content__markup-tag">&lt;znacznik</span> <span
                     class="content__markup--attribute">atrybut=&quot;wartość&quot;&gt;</span><span
@@ -226,15 +230,15 @@
               ".html"</span>
           </div>
 
-          <div class="week-notes__content">
+          <div class="week-notes__content content">
             <p class="content__list">Podstawowe znaczniki HTML</p>
 
             <!-- TODO: znaczniki wpisać w nawiasach ostrych, użyć znaków specjalnych, pokolorować -->
-            <ul class="list list--unordered">
+            <ul class="list__unordered">
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;main&gt;</span>
+                    <span class="list__item tag">&lt;main&gt;</span>
                   </i>
                 </b> - główna część strony
               </li>
@@ -242,7 +246,7 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;section&gt;</span>
+                    <span class="list__item tag">&lt;section&gt;</span>
                   </i>
                 </b> - sekcja (np. sport w gazecie)
               </li>
@@ -250,7 +254,7 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;article&gt;</span>
+                    <span class="list__item tag">&lt;article&gt;</span>
                   </i>
                 </b> -samodzielne treści
               </li>
@@ -258,7 +262,7 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;header&gt;</span>
+                    <span class="list__item tag">&lt;header&gt;</span>
                   </i>
                 </b> - nagłówek dokumenty sekcji lub artykułu
               </li>
@@ -266,7 +270,7 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;footer&gt;</span>
+                    <span class="list__item tag">&lt;footer&gt;</span>
                   </i>
                 </b> - stopka dokumentu, sekcji bądź artykułu
               </li>
@@ -274,7 +278,7 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;h1-h6&gt;</span>
+                    <span class="list__item tag">&lt;h1-h6&gt;</span>
                   </i>
                 </b> - nagłówki, od najważniejszego "h1", do najmniej ważnego "h6"
               </li>
@@ -282,16 +286,16 @@
               <li class="list__item">
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;p&gt;</span>
+                    <span class="list__item tag">&lt;p&gt;</span>
                   </i>
                 </b> - paragraf/akapit
               </li>
 
             </ul>
           </div>
-          <div class="week-notes__content">
-            <p class="content__list">Podusmowując, HTML:</p>
-            <ul class="list list--unordered">
+          <div class="week-notes__content content">
+            <p class="content__list list">Podusmowując, HTML:</p>
+            <ul class="list__unordered">
               <li class="list__item">Opakowuje i opisuje treść strony</li>
               <li class="list__item">Mówi przeglądarce o strukturze dokumentu</li>
               <li class="list__item">Posiada swoją zdefiniowaną składnię</li>
@@ -305,20 +309,21 @@
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">CSS - kaskadowe arkusze stylów (Cascading Style Sheets)</h4>
-          <p class="content__text">CSS odpowiada za prezentację oraz wpływa na wygląd elementów HTML na ekranie,
-            wydrukach itp. Pliki
-            zawierającee kod CSS mają rozszerzenie ".css". CSS ma swoją składnie:</p>
-
+          <div class="week-notes__content content">
+            <p class="content__text">CSS odpowiada za prezentację oraz wpływa na wygląd elementów HTML na ekranie,
+              wydrukach itp. Pliki
+              zawierającee kod CSS mają rozszerzenie ".css". CSS ma swoją składnie:</p>
+          </div>
           <!-- TODO: selektor { właściwość:wartość; } przerobić na kolory i odpowiednio to rozbić -->
-          <div class="week-notes__content">
-            <p class="content__list">Sposoby stylowania:</p>
-            <ol class="list list--ordered">
+          <div class="week-notes__content content">
+            <p class="content__list list">Sposoby stylowania:</p>
+            <ol class="list__ordered">
               <li class="list__item">Znacznik "style" - umieszczany w znaczniku head</li>
               <li class="list__item">Zewnętrzny arkusz stylów - przy użyciu znacznika
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;link
-                      <span class="content__markup--attribute">href=&quot;style.css&quot;
+                    <span class="list__item tag">&lt;link
+                      <span class="tag-markup__attribute">href=&quot;style.css&quot;
                         rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
                       </span>&gt;
                     </span>
@@ -329,23 +334,23 @@
                 <i>inline</i>
                 <b>
                   <i>
-                    <span class="content__markup--tag">&lt;znacznik
-                      <span class="content__markup--attribute">style=&quot;color:yellow;&quot;
+                    <span class="list__item tag">&lt;znacznik
+                      <span class="tag-markup__attribute">style=&quot;color:yellow;&quot;
                       </span>&gt;
                     </span>
-                    <span class="content__markup--text">treść</span>
-                    <span class="content__markup--tag">&lt;/znacznik&gt;</span>
+                    <span class="tag-markup__text">treść</span>
+                    <span class="list__item tag">&lt;/znacznik&gt;</span>
                   </i>
                 </b>
               </li>
             </ol>
           </div>
 
-          <div class="week-notes__content">
-            <p class="content__list">Właściwości CSS</p>
-            <ol class="list list--ordered">
+          <div class="week-notes__content content">
+            <p class="content__list list">Właściwości CSS</p>
+            <ol class="list__ordered">
               <li class="list__item">color
-                <ul class="list list--unordered">
+                <ul class="list__unordered">
                   <li class="list__item">blue, red, brown itp.</li>
                   <li class="list__item">#cccccc - kodem szesnatkowym</li>
                   <li class="list__item">rgb (rgba) - red(0-255) green(0-255) blue(0-255)</li>
@@ -355,9 +360,9 @@
             </ol>
           </div>
 
-          <div class="week-notes__content">
-            <p class="content__list">Podsumowując, CSS:</p>
-            <ul class="list list--unordered">
+          <div class="week-notes__content content">
+            <p class="content__list list">Podsumowując, CSS:</p>
+            <ul class="list__unordered">
               <li class="list__item">Odpowiada za prezentację treści strony</li>
               <li class="list__item">Nie mają jednej wersji, potocznie mówi się, że aktualna to wersja 3</li>
               <li class="list__item">Przeglądarki potrafią różnie interpretować CSS</li>
@@ -369,14 +374,17 @@
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">Czym jest programowanie?</h4>
-          <p class="content__text">Programowanie to zamiana ludzkiego języka na język zrozumiały przez komputer. Każdy
-            język programowania ma
-            swoją składnię, gramatykę i ortografię.</p>
-          <p class="content__text">Na świecie mamy ponad 700 języków programowania. W tym kursie zajęliśmy się tylko
-            jednym - JavaScript.</p>
-          <div class="week-notes__content">
-            <p class="content__list">Podsumowując, JS:</p>
-            <ul class="list list--unordered">
+          <div class="week-notes__content content">
+            <p class="content__text">Programowanie to zamiana ludzkiego języka na język zrozumiały przez komputer. Każdy
+              język programowania ma
+              swoją składnię, gramatykę i ortografię.</p>
+            <p class="content__text">Na świecie mamy ponad 700 języków programowania. W tym kursie zajęliśmy się tylko
+              jednym - JavaScript.</p>
+          </div>
+
+          <div class="week-notes__content content">
+            <p class="content__list list">Podsumowując, JS:</p>
+            <ul class="list__unordered">
               <li class="list__item">Odpowiada za interakcje</li>
               <li class="list__item">Pozwala na programowanie we frontendzie</li>
               <li class="list__item">Potrafi wpływać na każdą z warstw</li>
@@ -388,14 +396,16 @@
 
         <section class="week-notes__wrapper">
           <h4 class="week-notes__title">DevTools - narzędzia deweloperskie</h4>
-          <ul class="list list--unordered">
-            <li class="list__item">PPM > zbadaj(inspect)</li>
-            <li class="list__item">F12</li>
-          </ul>
+          <div class="week-notes__content content">
+            <p class="content-list list"></p>
+            <ul class="list__unordered">
+              <li class="list__item">PPM > zbadaj(inspect)</li>
+              <li class="list__item">F12</li>
+            </ul>
+          </div>
         </section>
-
       </article>
-
+      <!-- TODO: tutaj skończyłem -->
       <article class="week-notes">
         <h3 class="week-notes__number">Tydzień III</h3>
         <section class="week-notes__wrapper">

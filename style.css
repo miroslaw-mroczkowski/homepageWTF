@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(135deg, rgba(197, 194, 247, 1) 0%, rgba(37, 210, 144, 1) 41%, rgba(0, 255, 218, 1) 81%);
+}
+
 /* Nawigacja i header */
 
 .header {
@@ -15,6 +19,8 @@
 }
 
 .navigation {
+  display: flex;
+  justify-content: center;
   background-color: #fff;
 
 }
