@@ -79,10 +79,32 @@ body {
 
 /* Sekcja Tajemna Wiedza */
 
+.section-notes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "header header";
+  gap: 16px;
 
 
+}
+
+.section-notes__header {
+  grid-area: header;
+  height: 100px;
+  background-color: blueviolet;
+
+}
+
+.week-notes {
+  background-color: crimson;
+}
 
 /* Opis znacznika HTML */
+
+.rest-notes {
+  margin-top: 16px;
+  ;
+}
 
 
 
