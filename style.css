@@ -2,111 +2,267 @@
 
 * {
   font-size: 10px;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+html,
 body {
   background: linear-gradient(135deg, rgba(197, 194, 247, 1) 0%, rgba(37, 210, 144, 1) 41%, rgba(0, 255, 218, 1) 81%);
+  margin: 0;
+  padding: 0;
 }
 
 /* Nawigacja i header */
 
-.header {
+.header__burger {
+  position: relative;
   width: 100%;
-  background-color: rgb(127, 188, 245);
+  height: 4rem;
+  background-color: #ce4c4c;
+}
+
+.burger {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  color: #fff;
+  z-index: 2;
+}
+
+.fas {
+  display: none;
+  font-size: 1.8rem;
+}
+
+.active {
+  display: block;
+}
+
+
+
+.header {
+  display: block;
+  width: 100%;
+  background-color: rgb(205, 218, 87);
+
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 16px;
-  background-color: rgb(223, 135, 135);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  width: 100%;
+  background-color: rgb(206, 76, 76);
+  transition: all .2s linear;
+}
 
+.navigation.active {
+  left: 0;
 }
 
 .navigation__list {
-  display: flex;
-  justify-content: center;
-  flex-basis: 100%;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  text-align: end;
-
+  text-align: center;
 }
 
 .navigation__item {
-  display: inline-block;
+  /* display: block; */
 }
 
 .navigation__link {
-  display: inline-block;
+  display: block;
   padding: 2rem 3rem;
   text-decoration: none;
   font-family: arial, sans-serif;
-  color: brown;
+  color: rgb(233, 229, 229);
   font-size: 2rem;
   text-transform: uppercase;
+  background-color: rgb(206, 76, 76);
 }
 
 .header__title {
-  padding: 2rem 1.5rem;
-  font-size: 4.8rem;
+  width: 100%;
+  padding: 0 1.5rem 2rem;
+  font-size: 3.2rem;
   font-family: arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  /* word-wrap: break-word; */
 }
 
 .header__image {
-  width: 30vw;
+  display: block;
+  width: 80vw;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 /* Main */
 
 .main {
+  display: block;
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #fff;
-
+  /* max-width: 1200px; */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(155, 152, 152);
 }
 
 
 
 /* Sekcja O Mnie */
 
+.section-about,
+.section-about-me {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
 
+.section-about__title,
+.section-about-me__title {
+  font-size: 2.4rem;
+  text-align: center;
+}
 
+.article__title {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.article__text {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.article__icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem 1rem 1.5rem;
+}
+
+.article__icon {
+  /* flex-basis: 80%;
+  text-align: center; */
+}
+
+.fab {
+  font-size: 8rem;
+
+}
+
+.fa-html5 {
+  color: #dd4b25;
+}
+
+.fa-css3-alt {
+  color: #254bdd;
+}
+
+.fa-js {
+  color: #e9d44d;
+}
 
 /* Sekcja Tajemna Wiedza */
 
 .section-notes {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "header header";
-  gap: 16px;
-
-
+  gap: 16px;*/
+  width: 100%;
+  margin: 0 auto;
 }
 
 .section-notes__header {
-  grid-area: header;
-  height: 100px;
+  /* grid-area: header; */
+  margin-top: 2rem;
   background-color: blueviolet;
+}
 
+.section-notes__title {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1.2rem 0;
 }
 
 .week-notes {
   background-color: crimson;
+  padding: 2rem 1.5rem;
 }
+
+.week-notes__number {
+  font-size: 2.4rem;
+  padding-bottom: 1.5rem;
+}
+
+.week-notes__title {
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+
+.content__title {
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.content__text {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.content__list {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.list__unordered {
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  list-style: sqaure;
+  font-size: 1.2rem;
+}
+
 
 /* Opis znacznika HTML */
 
 .rest-notes {
   margin-top: 16px;
-  ;
+
 }
 
 
 
 
 /* Footer */
+
+footer {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  background-color: rgb(140, 188, 243);
+  color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .navigation {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background-color: rgb(223, 135, 135);
+  }
+}
