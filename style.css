@@ -132,6 +132,18 @@ body {
   text-align: center;
 }
 
+.section-about__title::before,
+.section-about-me__title::before {
+
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: yellow;
+  margin-right: 5px;
+
+}
+
 .article__title {
   font-size: 1.8rem;
   padding-top: 1rem;

@@ -1,0 +1,24 @@
+{
+  "name": "homepagewtf",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroslaw-mroczkowski/homepageWTF.git"
+  },
+  "author": "Mirosław Mroczkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miroslaw-mroczkowski/homepageWTF/issues"
+  },
+  "homepage": "https://github.com/miroslaw-mroczkowski/homepageWTF#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cowsay": "^1.4.0"
+  },
+  "keywords": [],
+  "description": ""
+}
